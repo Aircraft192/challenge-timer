@@ -39,4 +39,5 @@ You can avoid this incompatibility by following these steps:
 2. Go to the path `/datapack-name/data/minecraft/tags/` and rename the folder named "function" to "functions"
 3. Go to every other folder in the `/datapack-name/data/` directory and rename every folder there named "function" to "functions"
 4. The datapack should now work for versions 1.20 and lower
+
 If this datapack receives enough attention, I may provide a second Download for these older versions.
