@@ -1,4 +1,5 @@
 # (Challenge) Timer by Aircraft192
+![Banner](screenshots/banner.png)
 ## Summary
 This Datapack adds a handy little clock over your hotbar. It counts your playtime based on ticks. It could be used in Minecraft Challenges on YouTube or just to measure your addiction to Minecraft😅
 ## Features
