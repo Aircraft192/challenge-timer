@@ -2,25 +2,27 @@
 ![Banner](screenshots/banner.png)
 ## Summary
 This Datapack adds a handy little clock over your hotbar. It counts your playtime based on ticks. It could be used in Minecraft Challenges on YouTube or just to measure your addiction to Minecraft😅
-## Features
-You can pause and unpause the timer by simply typing
+## Basic features
+### Pausing and unpausing
 ```mcfunction
 /function aircraft192:timer/pause
 ```
 ```mcfunction
 /function aircraft192:timer/play
 ```
-To reset the timer completely and start from scratch, you can use
+### Resetting the timer
 ```mcfunction
 /function aircraft192:timer/reset
 ```
-You may also change wether the clock should be displayed or not using these commands (also useful for datapck developers):
+### Toggling the display
 ```mcfunction
 /function aircraft192:timer/display/on
 ```
 ```mcfunction
 /function aircraft192:timer/display/off
 ```
+This could also be useful for datapack developers.
+### Puasing while offline
 The timer is configured to pause when no players are online (only useful for servers). If you want to disable / reenable this behaviour, you can use:
 ```mcfunction
 /function aircraft192:timer/pausewhileoffline/on
@@ -28,8 +30,16 @@ The timer is configured to pause when no players are online (only useful for ser
 ```mcfunction
 /function aircraft192:timer/pausewhileoffline/off
 ```
+## Countdown timer
+As of version 4.0, you can use this datapack as a countdown timer too. To enable or disable this feature, use:
+```mcfunction
+/function aircraft192:timer/settings/countdown/on
+```
+```mcfunction
+/function aircraft192:timer/settings/countdown/off
+```
 ## How to install
-You can either grab one of the releases on PMC or download the developement version via the "Download ZIP" option on Github.
+You can either grab the current release on PMC or download the developement version via the "Download ZIP" option on GitHub.
 
 [![Download on Planet Minecraft](https://www.planetminecraft.com/images/layout/themes/modern/planetminecraft_logo.png)](https://www.planetminecraft.com/data-pack/timer-by-aircraft192/)
 ## READ IF YOU WANT TO USE THIS IN VERSION 1.20 OR OLDER
