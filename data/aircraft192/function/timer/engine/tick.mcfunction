@@ -1,5 +1,8 @@
-execute unless score countdown timer matches 1 run function aircraft192:timer/engine/count_up
-execute if score countdown timer matches 1 run function aircraft192:timer/engine/count_down
+execute unless score countdown timer matches 1 unless score pause timer matches 1 unless score pausewhileoffline timer matches 1 run function aircraft192:timer/engine/count_up
+execute if score countdown timer matches 1 unless score pause timer matches 1 unless score pausewhileoffline timer matches 1 run function aircraft192:timer/engine/count_down
+
+execute if score day timer matches -1 run function aircraft192:timer/pause
+execute if score day timer matches -1 run function aircraft192:timer/reset
 
 # Pause while offline
 # 0 = unpaused
