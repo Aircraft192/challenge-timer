@@ -25,10 +25,10 @@ This could also be useful for datapack developers.
 ### Puasing while offline
 The timer is configured to pause when no players are online (only useful for servers). If you want to disable / reenable this behaviour, you can use:
 ```mcfunction
-/function aircraft192:timer/pausewhileoffline/on
+/function aircraft192:timer/settings/pausewhileoffline/on
 ```
 ```mcfunction
-/function aircraft192:timer/pausewhileoffline/off
+/function aircraft192:timer/settings/pausewhileoffline/off
 ```
 ## Countdown timer
 As of version 4.0, you can use this datapack as a countdown timer too. To enable or disable this feature, use:
