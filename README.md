@@ -14,6 +14,19 @@ This Datapack adds a handy little clock over your hotbar. It counts your playtim
 ```mcfunction
 /function aircraft192:timer/reset
 ```
+### Setting the timer to a certain time
+```mcfunction
+/scoreboard players set day timer <day>
+```
+```mcfunction
+/scoreboard players set hour timer <hour>
+```
+```mcfunction
+/scoreboard players set minute timer <minute>
+```
+```mcfunction
+/scoreboard players set second timer <second>
+```
 ### Toggling the display
 ```mcfunction
 /function aircraft192:timer/display/on
@@ -22,7 +35,7 @@ This Datapack adds a handy little clock over your hotbar. It counts your playtim
 /function aircraft192:timer/display/off
 ```
 This could also be useful for datapack developers.
-### Puasing while offline
+### Pausing while offline
 The timer is configured to pause when no players are online (only useful for servers). If you want to disable / reenable this behaviour, you can use:
 ```mcfunction
 /function aircraft192:timer/settings/pausewhileoffline/on
@@ -38,6 +51,7 @@ As of version 4.0, you can use this datapack as a countdown timer too. To enable
 ```mcfunction
 /function aircraft192:timer/settings/countdown/off
 ```
+You have to set the timer to a specific starting time first, otherwise it will just stay at 0.
 ## How to install
 You can either grab the current release on PMC or download the developement version via the "Download ZIP" option on GitHub.
 
